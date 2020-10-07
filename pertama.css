@@ -1,0 +1,62 @@
+<style>
+    body{
+        width: 30%;
+        height: 70%;
+        padding: 100px;
+    }
+    .menu{
+        border: 2px solid;
+        height: 50px;
+       background-color: white; 
+    }
+    .menu .heading li{
+        overflow: hidden;
+        color:white;
+        float: left;
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .menu ul li{
+        overflow: hidden;
+        float: right;
+        color:white;
+        display: block;
+        text-align: center;
+        padding-right: 60px;
+        list-style-type:none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu ul li:hover{
+         color:black;
+        display:block;
+    }
+    .menu ul li.active{
+        color : black;
+    }
+    .stta{
+        border:2px solid;
+        padding-bottom: 350px;
+        background-color: white;
+        float:center;
+    }
+    .stta .judul{
+        text-align:  center;
+        margin-top: 120px;
+        margin-right: 20px;
+
+    }
+    .stta ul li{
+        overflow: hidden;
+        float: left;
+        color:black;
+        display: block;
+        text-align: center;
+       
+        margin-left: 320px;
+        list-style-type:none;
+    }
+    
+</style>

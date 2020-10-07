@@ -1,0 +1,61 @@
+<style>
+body{
+    width: 30%;
+    height: 70%;
+    padding: 100px;
+}
+.menu{
+    border: 2px solid;
+    height: 50px;
+   background-color:white; 
+}
+.menu .heading li{
+    overflow: hidden;
+    color:white;
+    float: left;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.menu ul li{
+    overflow: hidden;
+    float: right;
+    color:white;
+    display: block;
+    text-align: center;
+    padding-right: 60px;
+    list-style-type:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul li:hover{
+    color:black;
+   display:block;
+}
+.menu ul li.active{
+   color : black;
+}
+.galery{
+        border:2px solid;
+        padding-bottom: 100px;
+        background-color: white;
+        float:center;
+             
+}
+.galery.judul{
+    text-align:  left;
+    margin-right:30px;
+    
+    
+}
+img{
+     border: 1px solid;
+     margin: 20px;
+     padding: 10px;
+     width: 300px;
+     height: 200px;
+     align:center;
+     margin-right: 100px;
+    
+}
+</style>
